@@ -47,7 +47,7 @@ Opponent Strategies
 
 🚀 Getting Started
 1. Clone the Repository
-git clone [https://github.com/your-username/rock-paper-scissors-markov.git](https://github.com/02-rfq-07/RockPaperScissors)
+git clone (https://github.com/02-rfq-07/RockPaperScissors)
 
 cd RockPaperScissors
 
