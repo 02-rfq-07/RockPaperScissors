@@ -1,4 +1,4 @@
-Rock Paper Scissors
+> ROCK PAPER SCISSORS
 
 This project implements the classic Rock, Paper, Scissors game in Python, enhanced with a Markov Chain–based AI opponent that learns and predicts the player’s next moves.
 
@@ -15,9 +15,13 @@ This project implements the classic Rock, Paper, Scissors game in Python, enhanc
 📂 Project Structure:
 
 rock-paper-scissors/
+
 │── RPS.py       # Main game logic with Markov AI
+
 │── RPS_game.py
+
 │── main.py   # Run bulk simulations and evaluate win rates
+
 │── README.md           
 
 ⚙️ How It Works
@@ -44,6 +48,7 @@ Opponent Strategies
 🚀 Getting Started
 1. Clone the Repository
 git clone [https://github.com/your-username/rock-paper-scissors-markov.git](https://github.com/02-rfq-07/RockPaperScissors)
+
 cd RockPaperScissors
 
 2. Run the File
@@ -51,19 +56,28 @@ python main.py
 
 
 📊 Example Output
+
 Final results: {'p1': 994, 'p2': 0, 'tie': 5}
+
 Player 1 win rate: 100.0%
+
 vs Quincy: 100.0
 
 Final results: {'p1': 319, 'p2': 363, 'tie': 318}
+
 Player 1 win rate: 46.7%
+
 vs Abbey: 46.7%
 
 Final results: {'p1': 202, 'p2': 297, 'tie': 501}
+
 Player 1 win rate: 40.4%
+
 vs Kris: 40.4%
 
 Final results: {'p1': 638, 'p2': 361, 'tie': 1}
+
 Player 1 win rate: 63.8%
+
 vs Mrugesh: 63.8%
 
