@@ -15,10 +15,9 @@ def player(prev_play,opponent_history=[]):
             return beats(predicted)
     
     #Kris - Mirrors Last Play
-    if len(opponent_history)>=2:
-        if opponent_history[-1]==player.last_play:
-            predicted=player.last_play
-            move=beats(predicted)
+    if len(opponent_history)>=2 and opponent_history[-1]==player.last_play:
+            forced_cycle={"R":"P","P":"S","S":"R"}
+            move=forced_cycle[player.last_play]
             player.last_play=move
             return move
     
@@ -48,6 +47,8 @@ def player(prev_play,opponent_history=[]):
         move=beats(predicted)
         player.last_play=move
         return move
+    
+#Next Moves
 def beats(move):
     if move=="R":
         return "P"
