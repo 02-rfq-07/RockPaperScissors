@@ -13,6 +13,7 @@ This project implements the classic Rock, Paper, Scissors game in Python, enhanc
   Simulates games against different strategies like Quincy, Abbey, Kris, and Mrugesh for testing AI performance.
 
 📂 Project Structure:
+
 rock-paper-scissors/
 │── RPS.py       # Main game logic with Markov AI
 │── RPS_game.py
